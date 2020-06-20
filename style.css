@@ -1,0 +1,72 @@
+.section {
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+
+.section:nth-of-type(odd) {
+    background-color: #ebd6d6;
+}
+
+.about-text{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#skill .rate {
+    font-size: 16px;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    letter-spacing: .3em;
+}
+
+#skill .rate:before,
+#skill .rate:after {
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 20px;
+    content: "★★★★★";
+}
+
+#skill .rate:before {
+    color: #ddd;
+}
+
+#skill .rate:after {
+    overflow: hidden;
+    white-space: nowrap;
+    color: #f181b4;
+}
+
+#skill .rate1:after {
+    width: 20px;
+}
+
+#skill .rate2:after {
+    width: 40px;
+}
+
+#skill .rate3:after {
+    width: 60px;
+}
+
+#skill .rate4:after {
+    width: 80px;
+}
+
+#skill .rate5:after {
+    width: 100px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
