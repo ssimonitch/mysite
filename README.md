@@ -1,4 +1,4 @@
 # portfoliosite
 
 # URL
-https://goldenyusuke.github.io/portfoliosite/
+https://goldenyusuke.github.io/mysite/
